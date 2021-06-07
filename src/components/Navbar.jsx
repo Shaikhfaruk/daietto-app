@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as FaIcons from "react-icons/fa";
+import * as RiIcons from "react-icons/ri";
 import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
@@ -13,10 +13,10 @@ const Navbar = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "#7F8DA0" }}>
         <div className="navbar">
           <Link to="#" className="menu_bars">
-            <FaIcons.FaBars onClick={showSidebar} />
+            <RiIcons.RiBarChartHorizontalLine onClick={showSidebar} />
           </Link>
         </div>
         <nav className={sidebar ? "nav_menu active" : "nav_menu"}>

@@ -37,7 +37,7 @@ const Navbar = () => {
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>
                     {item.icon}
-                    <span className="mbSpan">{item.title}</span>
+                    <span className="mbSpan active">{item.title}</span>
                   </Link>
                 </li>
               );

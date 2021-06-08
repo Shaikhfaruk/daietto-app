@@ -23,15 +23,15 @@
   align-items: center;
   justify-content: center;
   list-style: none;
-  width: 100%;
+  width: 80%;
   height: 80px;
 }
 .desk_nav_text {
   display: flex;
+  padding: 0.6em;
 }
 .desk_nav_menu .desk_nav_text a {
   text-decoration: none;
-  /* padding: 0; */
 }
 
 .logoSection {
@@ -108,32 +108,24 @@
   padding: 5px;
 }
 
+/* buttons start🔳 */
 .sign_btn a,
-.log_btn a {
-  font-size: 25px;
+.log_btn a,
+.logBtn a,
+.regBtn a {
+  font-size: 1.5rem;
+}
+.sign_btn a,
+.regBtn a {
+  color: #6bc37c;
+}
+.log_btn a,
+.logBtn a {
+  color: #23233c;
+}
+.logBtn a,
+.regBtn a {
   text-decoration: none;
-  list-style: none;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-}
-.log_btn a {
-  color: #23233c;
-}
-.log_btn a:hover {
-  color: #6bc37c;
-  border: 1px solid #23233c;
-  background: transparent;
-}
-.sign_btn a {
-  color: #6bc37c;
-}
-.sign_btn a:hover {
-  color: #23233c;
-  border: 1px solid #6bc37c;
-  background: transparent;
 }
 
 /* 👽⚔️ media queries start ⚔️👽 */
@@ -144,8 +136,11 @@
     display: none;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 767px) {
   .desktop_nav {
     display: none;
+  }
+  body {
+    font-size: 0.7rem;
   }
 }

@@ -32,13 +32,13 @@ export const SidebarData = [
     desk_title2: "Login",
     path: "/login",
     cName: "log_btn nav_text",
-    deskcname: "desk_nav_text",
+    deskcname: "logBtn desk_nav_text",
   },
   {
     title: "Register",
     desk_title2: "Register",
     path: "/register",
     cName: "sign_btn nav_text",
-    deskcname: "desk_nav_text",
+    deskcname: "regBtn desk_nav_text",
   },
 ];

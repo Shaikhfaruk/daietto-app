@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import * as RiIcons from "react-icons/ri";
 import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
+import logo from "./logo.svg";
+import bar from "./bar.svg";
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -15,8 +16,13 @@ const Navbar = () => {
     <>
       <IconContext.Provider value={{ color: "#7F8DA0" }}>
         <div className="navbar">
+          <div className="logoSection">
+            <img src={logo} alt="diietto logo" />
+            <h1>Daietto</h1>
+          </div>
+
           <Link to="#" className="menu_bars">
-            <RiIcons.RiBarChartHorizontalLine onClick={showSidebar} />
+            <img src={bar} alt="diietto bar" onClick={showSidebar} />
           </Link>
         </div>
         <nav className={sidebar ? "nav_menu active" : "nav_menu"}>

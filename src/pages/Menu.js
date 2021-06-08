@@ -1,6 +1,6 @@
 import React from "react";
 
-const Services = () => {
+const Menu = () => {
   return (
     <>
       <h1>sdgssdfsd</h1>
@@ -8,4 +8,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Menu;

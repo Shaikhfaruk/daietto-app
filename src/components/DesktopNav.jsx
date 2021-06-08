@@ -16,13 +16,18 @@ const DesktopNav = () => {
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.deskcname}>
-                  <Link to={item.path}>
-                    {item.desk_title1} <span>{item.desk_title2}</span>
-                  </Link>
+                  <Link to={item.path}>{item.desk_title1}</Link>
                 </li>
               );
             })}
           </ul>
+          {SidebarData.map((item, index) => {
+            return (
+              <li key={index} className={item.deskcname}>
+                <Link to={item.path}>{item.desk_title2}</Link>
+              </li>
+            );
+          })}
         </nav>
       </div>
     </>

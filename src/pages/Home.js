@@ -27,6 +27,21 @@ const Home = () => {
             <br />
             nivel, sin necesidad de afectar su salud
           </p>
+          <div className="social_names_up">
+            <ul>
+              <li>
+                <Link>Facebook</Link>
+              </li>
+              <li>/</li>
+              <li>
+                <Link>Instagram</Link>
+              </li>
+              <li>/</li>
+              <li>
+                <Link>Twitter</Link>
+              </li>
+            </ul>
+          </div>
           <div className="btn_section">
             <button>Descargar app</button>
             <div className="social_btns">

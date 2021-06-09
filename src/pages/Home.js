@@ -4,6 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import * as FcIcons from "react-icons/fc";
 import login_img from "./login_img.svg";
 import circle from "./circle.svg";
+import img3 from "./img3.svg";
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
           <div className="images">
             <img className="img1" src={circle} alt="circle" />
             <img className="img2" src={login_img} alt="login_img" />
+            <img src={img3} alt="" className="img3" />
           </div>
         </div>
       </div>
@@ -43,9 +45,3 @@ const Home = () => {
 };
 
 export default Home;
-
-/* <div className="home_right_container">
-      
-            
-          </div>
-           */

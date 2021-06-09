@@ -28,13 +28,11 @@ const Home = () => {
             nivel, sin necesidad de afectar su salud
           </p>
           <div className="home_mb_images">
-            <div className="images">
-              <img className="img1" src={circle} alt="circle" />
-              <img className="img2" src={login_img} alt="login_img" />
-              <img src={img3} alt="" className="img3" />
-              <img src={home_img} alt="" className="home_img" />
-              <img src={home_pop_img} alt="" className="home_pop_img" />
-            </div>
+            <img className="img1" src={circle} alt="circle" />
+            <img className="img2" src={login_img} alt="login_img" />
+            <img src={img3} alt="" className="img3" />
+            <img src={home_img} alt="" className="home_img" />
+            <img src={home_pop_img} alt="" className="home_pop_img" />
           </div>
 
           <div className="social_names_up">

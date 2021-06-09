@@ -118,6 +118,13 @@ body {
   height: 622px;
   top: -30px;
 }
+.home_pop_img {
+  position: absolute;
+  width: 200px;
+  height: 125px;
+  left: 322px;
+  top: 250px;
+}
 /*🏩 media queries start🏩 */
 /* @media (min-width: 768px) {
   .home_right_container img {

@@ -164,6 +164,9 @@ button {
 .social_names_up {
   display: none;
 }
+.home_mb_images {
+  display: none;
+}
 /*🏩 media queries start🏩 */
 /* @media (min-width: 768px) {
   .home_right_container img {
@@ -231,5 +234,12 @@ button {
   .social_names_up ul li a {
     text-decoration: none;
     color: #7f8da0;
+  }
+  .home_mb_images {
+    display: flex;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    top: 20px;
   }
 }

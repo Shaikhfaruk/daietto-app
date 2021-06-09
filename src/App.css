@@ -59,12 +59,30 @@ body {
 .dash_line {
   padding: 75px 0 0 0;
 }
+.btn_section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
 .btn_section button {
   width: 234px;
-  height: 60px;
+  height: 50px;
   background-color: #23233c;
+  outline: none;
   color: rgb(255, 255, 255);
   border-radius: 10px;
+}
+.social_btn {
+  font-size: 2rem;
+}
+.social_btns {
+  position: relative;
+  left: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
 @media (min-width: 768px) {
@@ -80,5 +98,29 @@ body {
   }
   .dash_line {
     padding: 50px 0 0 0;
+  }
+  .btn_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn_section button {
+    width: 80%;
+    position: relative;
+    left: -16px;
+    cursor: pointer;
+  }
+  .social_btns {
+    display: flex;
+    width: 90%;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    position: relative;
+    left: -25px;
+    top: 12px;
   }
 }

@@ -24,8 +24,10 @@ const Home = () => {
           </p>
           <div className="btn_section">
             <button>Descargar app</button>
-            <AiIcons.AiFillApple />
-            <FcIcons.FcAndroidOs />
+            <div className="social_btns">
+              <AiIcons.AiFillApple className="social_btn" />
+              <FcIcons.FcAndroidOs className="social_btn" />
+            </div>
           </div>
         </div>
         {/* <div className="home_right_container">

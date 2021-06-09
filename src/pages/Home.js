@@ -2,7 +2,8 @@ import React from "react";
 import dash_line from "./dash_line.svg";
 import * as AiIcons from "react-icons/ai";
 import * as FcIcons from "react-icons/fc";
-// import rtimg1 from "./rtimg1.svg";
+import login_img from "./login_img.svg";
+import circle from "./circle.svg";
 
 const Home = () => {
   return (
@@ -30,9 +31,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* <div className="home_right_container">
-          <img src={rtimg1} alt="" />
-        </div> */}
+        <div className="home_right_container">
+          <div className="images">
+            <img className="img1" src={circle} alt="circle" />
+            <img className="img2" src={login_img} alt="login_img" />
+          </div>
+        </div>
       </div>
     </>
   );

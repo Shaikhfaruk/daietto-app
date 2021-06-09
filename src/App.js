@@ -9,11 +9,13 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Menu from "./pages/Menu";
 import Nosotros from "./pages/Nosotros";
+import ScrollToTop from "./pages/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <DesktopNav />
         <Switch>

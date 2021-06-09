@@ -5,6 +5,7 @@ import * as FcIcons from "react-icons/fc";
 import login_img from "./login_img.svg";
 import circle from "./circle.svg";
 import img3 from "./img3.svg";
+import home_img from "./home_img.svg";
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
             <img className="img1" src={circle} alt="circle" />
             <img className="img2" src={login_img} alt="login_img" />
             <img src={img3} alt="" className="img3" />
+            <img src={home_img} alt="" className="home_img" />
           </div>
         </div>
       </div>

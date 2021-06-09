@@ -99,7 +99,7 @@ body {
   top: 80px;
 }
 .img2 {
-  position: relative;
+  position: absolute;
   top: -135px;
   width: 288px;
   height: 622px;
@@ -110,6 +110,13 @@ body {
   left: 175px;
   width: 200px;
   height: 100px;
+}
+.home_img {
+  position: absolute;
+  width: 288px;
+  left: 200px;
+  height: 622px;
+  top: -30px;
 }
 /*🏩 media queries start🏩 */
 /* @media (min-width: 768px) {

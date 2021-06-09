@@ -7,6 +7,7 @@ import circle from "./circle.svg";
 import img3 from "./img3.svg";
 import home_img from "./home_img.svg";
 import home_pop_img from "./home_pop_img.svg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -32,6 +33,21 @@ const Home = () => {
               <AiIcons.AiFillApple className="social_btn" />
               <FcIcons.FcAndroidOs className="social_btn" />
             </div>
+          </div>
+          <div className="social_names">
+            <ul>
+              <li>
+                <Link>Facebook</Link>
+              </li>
+              <li>/</li>
+              <li>
+                <Link>Instagram</Link>
+              </li>
+              <li>/</li>
+              <li>
+                <Link>Twitter</Link>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="home_right_container">

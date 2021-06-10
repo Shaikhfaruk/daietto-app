@@ -1,12 +1,12 @@
 import React from "react";
-import dash_line from "./dash_line.svg";
+import dash_line from "../Images/dash_line.svg";
 import * as AiIcons from "react-icons/ai";
 import * as FcIcons from "react-icons/fc";
-import login_img from "./login_img.svg";
-import circle from "./circle.svg";
-import img3 from "./img3.svg";
-import home_img from "./home_img.svg";
-import home_pop_img from "./home_pop_img.svg";
+import login_img from "../Images/login_img.svg";
+import circle from "../Images/circle.svg";
+import img3 from "../Images/img3.svg";
+import home_img from "../Images/home_img.svg";
+import home_pop_img from "../Images/home_pop_img.svg";
 import { Link } from "react-router-dom";
 
 const Home = () => {

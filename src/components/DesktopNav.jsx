@@ -1,7 +1,7 @@
 import React from "react";
-import DeskLogo from "./DeskLogo.svg";
 import { SidebarData } from "./SidebarData";
 import { Link } from "react-router-dom";
+import DeskLogo from "../Images/DeskLogo.svg";
 
 const DesktopNav = () => {
   return (

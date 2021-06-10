@@ -7,10 +7,10 @@ const DesktopNav = () => {
   return (
     <>
       <div className="desktop_nav">
-        <div className="logoSection desk_logo_section">
+        <Link to="/" className="logoSection desk_logo_section">
           <img src={DeskLogo} alt="desktop logo" />
           <h1>Daietto</h1>
-        </div>
+        </Link>
         <nav className="deskLinks">
           <ul className="desk_nav_menu">
             {SidebarData.map((item, index) => {

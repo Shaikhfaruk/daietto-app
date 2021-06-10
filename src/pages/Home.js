@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import dash_line from "../Images/dash_line.svg";
 import * as AiIcons from "react-icons/ai";
 import * as FcIcons from "react-icons/fc";
@@ -8,11 +8,16 @@ import img3 from "../Images/img3.svg";
 import home_img from "../Images/home_img.svg";
 import home_pop_img from "../Images/home_pop_img.svg";
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   return (
     <>
-      <div className="home">
+      <div className="home" to="/">
         <div className="home_left_container">
           <div>
             <img className="dash_line" src={dash_line} alt="line" />

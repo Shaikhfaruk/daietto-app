@@ -16,10 +16,10 @@ const Navbar = () => {
     <>
       <IconContext.Provider value={{ color: "#7F8DA0" }}>
         <div className="navbar">
-          <div className="logoSection">
+          <Link to="/" className="logoSection">
             <img src={logo} alt="diietto logo" />
             <h1>Daietto</h1>
-          </div>
+          </Link>
 
           <Link to="#" className="menu_bars">
             <img src={bar} alt="diietto bar" onClick={showSidebar} />

@@ -38,15 +38,15 @@ const Home = () => {
           <div className="social_names_up">
             <ul>
               <li>
-                <Link to="#">Facebook</Link>
+                <Link to="/">Facebook</Link>
               </li>
               <li>/</li>
               <li>
-                <Link to="#">Instagram</Link>
+                <Link to="/">Instagram</Link>
               </li>
               <li>/</li>
               <li>
-                <Link to="#">Twitter</Link>
+                <Link to="/">Twitter</Link>
               </li>
             </ul>
           </div>

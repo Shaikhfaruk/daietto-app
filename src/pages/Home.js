@@ -17,7 +17,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div className="home" to="/">
+      <div data-aos="fade-up" className="home" to="/">
         <div className="home_left_container">
           <div>
             <img className="dash_line" src={dash_line} alt="line" />

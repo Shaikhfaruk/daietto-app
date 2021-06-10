@@ -18,6 +18,7 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <DesktopNav />
+
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/nosotros" component={Nosotros} />

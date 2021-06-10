@@ -33,11 +33,31 @@ const Home = () => {
             nivel, sin necesidad de afectar su salud
           </p>
           <div className="home_mb_images">
-            <img className="img1" src={circle} alt="circle" />
-            <img className="img2" src={login_img} alt="login_img" />
-            <img src={img3} alt="" className="img3" />
-            <img src={home_img} alt="" className="home_img" />
-            <img src={home_pop_img} alt="" className="home_pop_img" />
+            <img
+              data-aos="fade-right"
+              className="img1"
+              src={circle}
+              alt="circle"
+            />
+            <img
+              data-aos="fade-left"
+              className="img2"
+              src={login_img}
+              alt="login_img"
+            />
+            <img data-aos="fade-right" src={img3} alt="" className="img3" />
+            <img
+              data-aos="fade-left"
+              src={home_img}
+              alt=""
+              className="home_img"
+            />
+            <img
+              data-aos="fade-right"
+              src={home_pop_img}
+              alt=""
+              className="home_pop_img"
+            />
           </div>
 
           <div className="social_names_up">
@@ -80,11 +100,31 @@ const Home = () => {
         </div>
         <div data-aos="flip-left" className="home_right_container">
           <div className="images">
-            <img className="img1" src={circle} alt="circle" />
-            <img className="img2" src={login_img} alt="login_img" />
-            <img src={img3} alt="" className="img3" />
-            <img src={home_img} alt="" className="home_img" />
-            <img src={home_pop_img} alt="" className="home_pop_img" />
+            <img
+              data-aos="fade-left"
+              className="img1"
+              src={circle}
+              alt="circle"
+            />
+            <img
+              data-aos="fade-right"
+              className="img2"
+              src={login_img}
+              alt="login_img"
+            />
+            <img data-aos="fade-left" src={img3} alt="" className="img3" />
+            <img
+              data-aos="fade-right"
+              src={home_img}
+              alt=""
+              className="home_img"
+            />
+            <img
+              data-aos="fade-left"
+              src={home_pop_img}
+              alt=""
+              className="home_pop_img"
+            />
           </div>
         </div>
       </div>

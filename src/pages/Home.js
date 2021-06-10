@@ -17,8 +17,8 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div data-aos="fade-up" className="home" to="/">
-        <div className="home_left_container">
+      <div className="home" to="/">
+        <div data-aos="fade-up" className="home_left_container">
           <div>
             <img className="dash_line" src={dash_line} alt="line" />
           </div>
@@ -78,7 +78,7 @@ const Home = () => {
             </ul>
           </div>
         </div>
-        <div className="home_right_container">
+        <div data-aos="flip-left" className="home_right_container">
           <div className="images">
             <img className="img1" src={circle} alt="circle" />
             <img className="img2" src={login_img} alt="login_img" />

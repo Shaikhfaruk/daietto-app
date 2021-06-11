@@ -83,6 +83,7 @@
 }
 .menu_heading {
   color: #6cc57c;
+  padding: 0 0 60px 0;
 }
 .menu_heading span {
   color: #23233c;
@@ -108,6 +109,10 @@
   color: #ffffff;
   bottom: -18px;
   left: 90px;
+}
+
+.dash_line1 {
+  padding: 25px 0;
 }
 
 @media (max-width: 768px) {

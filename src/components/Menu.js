@@ -19,27 +19,37 @@ const Menu = () => {
       >
         <div className="menu_container" data-aos="fade-up">
           <div className="dish_container">
-            <div className="dish_card1">
-              <img className="dish_images1" src={dish1} alt="First Dish" />
+            <div className="dish_card1" data-aos="zoom-in">
+              <img
+                className="dish_images1"
+                data-aos="fade-left"
+                src={dish1}
+                alt="First Dish"
+              />
               <h3 className="dish_name1">Ensalada mixta</h3>
-              <button className="next_btn1">
+              <button className="next_btn1" data-aos="fade-right">
                 <AiIcons.AiOutlineArrowRight />
               </button>
             </div>
 
-            <div className="dish_card2">
-              <img className="dish_images2" src={dish2} alt="Second Dish" />
+            <div className="dish_card2" data-aos="zoom-in">
+              <img
+                className="dish_images2"
+                data-aos="fade-left"
+                src={dish2}
+                alt="Second Dish"
+              />
               <h3 className="dish_name2">Ensalada con pollo</h3>
-              <button className="next_btn2">
+              <button className="next_btn2" data-aos="fade-right">
                 <AiIcons.AiOutlineArrowRight />
               </button>
             </div>
           </div>
 
           <div className="about_menu">
-            <img className="dash_line" src={dash_line} alt="line" />
+            <img className="dash_line1" src={dash_line} alt="line" />
             <h1 className="menu_heading">
-              Conoce <span> el detalle de los alimentos que consumes</span>{" "}
+              Descubre <span> que tan fácil crear alimentos saludables</span>
             </h1>
             <p className="menu_para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin

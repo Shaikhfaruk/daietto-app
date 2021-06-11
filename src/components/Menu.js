@@ -21,7 +21,7 @@ const Menu = () => {
           <div className="dish_container">
             <div className="dish_card1">
               <img className="dish_images1" src={dish1} alt="First Dish" />
-              <h3 className="dish_name">Ensalada mixta</h3>
+              <h3 className="dish_name1">Ensalada mixta</h3>
               <button className="next_btn1">
                 <AiIcons.AiOutlineArrowRight />
               </button>
@@ -29,7 +29,7 @@ const Menu = () => {
 
             <div className="dish_card2">
               <img className="dish_images2" src={dish2} alt="Second Dish" />
-              <h3 className="dish_name">Ensalada con pollo</h3>
+              <h3 className="dish_name2">Ensalada con pollo</h3>
               <button className="next_btn2">
                 <AiIcons.AiOutlineArrowRight />
               </button>

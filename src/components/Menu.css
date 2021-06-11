@@ -5,12 +5,13 @@
   align-items: center;
   position: relative;
   padding: 25px;
+  margin-top: 25px;
 }
 .dish_container {
   flex-wrap: wrap-reverse;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 }
@@ -18,20 +19,21 @@
   height: 210px;
   width: 210px;
   position: relative;
+  border-radius: 50%;
   top: -100px;
 }
 .dish_images2 {
-  height: 150px;
-  width: 150px;
+  height: 225px;
+  width: 225px;
   border-radius: 50%;
   position: relative;
-  top: -60px;
-  left: -3px;
+  top: -100px;
+  left: -5px;
 }
 .dish_card1 {
   display: flex;
-  width: 150px;
-  height: auto;
+  width: 200px;
+  height: 300px;
   color: #f2f6ff;
   border-radius: 150px 150px 50px 50px;
   z-index: -1;
@@ -43,8 +45,8 @@
 }
 .dish_card2 {
   display: flex;
-  width: 150px;
-  height: 250px;
+  width: 200px;
+  height: 300px;
   color: #f2f6ff;
   border-radius: 150px 150px 50px 50px;
   z-index: -1;
@@ -53,6 +55,19 @@
   flex-direction: column;
   align-items: center;
   margin: 100px 0;
+  top: 180px;
+  position: relative;
+}
+.dish_name1 {
+  color: #23233c;
+  position: relative;
+  top: 0;
+  width: 60%;
+}
+.dish_name2 {
+  position: relative;
+  top: 0;
+  color: #23233c;
 }
 .about_menu {
   display: flex;
@@ -80,7 +95,7 @@
   background-color: #23233c;
   color: #ffffff;
   bottom: -10px;
-  left: 60px;
+  left: 90px;
 }
 .next_btn2 {
   height: 40px;
@@ -90,13 +105,10 @@
   border: none;
   background-color: #23233c;
   color: #ffffff;
+  bottom: -18px;
+  left: 90px;
+}
 
-  bottom: -70px;
-  left: 60px;
-}
-.dish_name {
-  color: #23233c;
-}
 @media (max-width: 768px) {
   .dish_container {
     display: flex;
@@ -111,5 +123,34 @@
     align-items: center;
     position: relative;
     padding: 25px;
+  }
+  .dish_card1 {
+    width: 300px;
+    height: 400px;
+  }
+  .dish_card2 {
+    width: 300px;
+    height: 400px;
+  }
+  .dish_images1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  .dish_images2 {
+    height: 300px;
+    width: 300px;
+  }
+  .next_btn1,
+  .next_btn2 {
+    position: relative;
+    bottom: -30px;
+    left: 135px;
+    height: 60px;
+    width: 60px;
+  }
+  .dish_card2 {
+    top: 0px;
+    position: relative;
   }
 }

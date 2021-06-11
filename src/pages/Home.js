@@ -10,6 +10,7 @@ import home_pop_img from "../Images/home_pop_img.svg";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Menu from "../components/Menu";
 
 const Home = () => {
   useEffect(() => {
@@ -128,6 +129,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Menu />
     </>
   );
 };

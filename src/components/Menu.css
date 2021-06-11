@@ -28,10 +28,10 @@
   top: -60px;
   left: -3px;
 }
-.dish_card {
+.dish_card1 {
   display: flex;
   width: 150px;
-  height: 200px;
+  height: auto;
   color: #f2f6ff;
   border-radius: 150px 150px 50px 50px;
   z-index: -1;
@@ -39,7 +39,20 @@
   box-shadow: 19px 19px 32px #c2c5cc, -19px -19px 32px #ffffff;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin: 100px 0;
+}
+.dish_card2 {
+  display: flex;
+  width: 150px;
+  height: 250px;
+  color: #f2f6ff;
+  border-radius: 150px 150px 50px 50px;
+  z-index: -1;
+  background: #f2f6ff;
+  box-shadow: 19px 19px 32px #c2c5cc, -19px -19px 32px #ffffff;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
 }
 .about_menu {
   display: flex;
@@ -58,7 +71,33 @@
 .menu_heading span {
   color: #23233c;
 }
-@media (max-width: 420px) {
+.next_btn1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  border: none;
+  background-color: #23233c;
+  color: #ffffff;
+  bottom: -10px;
+  left: 60px;
+}
+.next_btn2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  border: none;
+  background-color: #23233c;
+  color: #ffffff;
+
+  bottom: -70px;
+  left: 60px;
+}
+.dish_name {
+  color: #23233c;
+}
+@media (max-width: 768px) {
   .dish_container {
     display: flex;
     align-items: center;

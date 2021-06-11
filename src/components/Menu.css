@@ -3,7 +3,6 @@
   flex-direction: row;
   width: 100%;
   align-items: center;
-  top: 50px;
   position: relative;
   padding: 25px;
 }
@@ -71,7 +70,6 @@
     flex-direction: column-reverse;
     width: 100%;
     align-items: center;
-    top: 50px;
     position: relative;
     padding: 25px;
   }
